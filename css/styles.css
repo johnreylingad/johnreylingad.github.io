@@ -44,9 +44,10 @@ img {
 }
 
 /*Navitation bar*/
-header h1, nav,{
+header h1, nav {
 	display: inline-block;
 }
+
 header li, footer li {
 	display: inline;
 	padding: 5px;
