@@ -44,13 +44,8 @@ img {
 }
 
 /*Navitation bar*/
-header h1, nav, #search{
+header h1, nav,{
 	display: inline-block;
-}
-#search{
-	float: right;
-	vertical-align: middle;
-	padding: auto 0;
 }
 header li, footer li {
 	display: inline;
