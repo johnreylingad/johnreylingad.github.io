@@ -2,6 +2,10 @@ html{
 	background: #f7f7f7;
 }
 
+a{
+	text-decoration: none;
+}
+
 body{
 	background: white;
 	max-width: 80%;
@@ -14,15 +18,33 @@ header, footer {
 	color: white;
 }	
 
+h1 {
+	padding-left: 20px;
+}
+
 main{
 	margin: 20px;
 }
 
-img {
-	max-width: 20%;
+.digitalartsamples {
+	border: 1px solid white;
+	width: 200px;
+	display: inline-block;
 }
 
-/*Navitation bar colors*/
+img {
+	max-width: 100%;
+}
+
+/*Navitation bar*/
+header h1, nav {
+	display: inline-block;
+}
+header li, footer li {
+	display: inline;
+	padding: 5px;
+}
+
 a:link {
 	color: white;
 }
@@ -34,4 +56,20 @@ a:visited {
 a:hover {
 	color: grey;
 }
+/*End*/
+
+/*BIO ISOLATED*/
+.bioMain {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	padding: 20px;
+}
+
+.bioAside {
+	display: inline-block;
+	width: 10%;
+	padding: 50px 20px 20px 20px;
+}
+
 /*End*/
