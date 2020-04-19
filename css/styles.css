@@ -2,10 +2,6 @@ html{
 	background: #f7f7f7;
 }
 
-a{
-	text-decoration: none;
-}
-
 body{
 	background: white;
 	max-width: 80%;
@@ -20,6 +16,17 @@ header, footer {
 
 h1 {
 	padding-left: 20px;
+	font-size: 15px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+ul, h2{
+	margin: 0;
+	padding: 0;
 }
 
 main{
@@ -37,12 +44,18 @@ img {
 }
 
 /*Navitation bar*/
-header h1, nav {
+header h1, nav, #search{
 	display: inline-block;
+}
+#search{
+	float: right;
+	vertical-align: middle;
+	padding: auto 0;
 }
 header li, footer li {
 	display: inline;
 	padding: 5px;
+	font-size: 15px;
 }
 
 a:link {
@@ -64,12 +77,14 @@ a:hover {
 	vertical-align: top;
 	width: 70%;
 	padding: 20px;
+	margin: 0;
 }
 
 .bioAside {
 	display: inline-block;
 	width: 10%;
-	padding: 50px 20px 20px 20px;
+	padding: 20px;
+	margin: 0;
 }
 
 /*End*/
