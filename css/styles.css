@@ -18,6 +18,10 @@ main{
 	margin: 20px;
 }
 
+img {
+	max-width: 20%;
+}
+
 /*Navitation bar colors*/
 a:link {
 	color: white;
