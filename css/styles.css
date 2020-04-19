@@ -1,0 +1,33 @@
+html{
+	background: #f7f7f7;
+}
+
+body{
+	background: white;
+	max-width: 80%;
+	margin: 0 auto;
+	font-family: 'Manrope', sans-serif;
+}
+
+header, footer {
+	background: #333a40;
+	color: white;
+}	
+
+main{
+	margin: 20px;
+}
+
+/*Navitation bar colors*/
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: grey;
+}
+/*End*/
