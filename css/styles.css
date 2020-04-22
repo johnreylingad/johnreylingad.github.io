@@ -23,17 +23,37 @@ body{
 header, footer {
 	background: #333a40;
 	color: white;
+	padding: 10px;
 }	
 
 h1 {
-	padding-left: 20px;
 	font-size: 15px;
+	font-weight: bold;
+}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
 }
 
 
 a{
 	text-decoration: none;
 }
+
+/*Portfolio*/
+.portfolioLink:link {
+	color: black;
+}
+
+.portfolioLink:hover {
+	color: grey;
+}
+
+.portfolioLink:visited {
+	color: black;
+}
+
+/*End*/
 
 ul, h2{
 	margin: 0;
@@ -65,33 +85,38 @@ header li, footer li {
 	font-size: 15px;
 }
 
-a:link {
+header a:link, footer a:link {
 	color: white;
 }
 
-a:visited {
+header a:visited, footer a:visited {
 	color: white;
 }
 
-a:hover {
+header a:hover, footer a:hover {
 	color: grey;
 }
+
 /*End*/
 
 /*BIO ISOLATED*/
 .bioMain {
+	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: top;
-	width: 70%;
+	width: 80%;
 	padding: 20px;
 	margin: 0;
+	overflow: auto;
 }
 
 .bioAside {
+	box-sizing: border-box;
 	display: inline-block;
-	width: 10%;
+	width: 15%;
 	padding: 20px;
 	margin: 0;
+	overflow: auto;
 }
 
 /*End*/
